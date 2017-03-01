@@ -45,6 +45,10 @@ body {
 	background: #f67280;
 	position: absolute;
 	top: 50%;
+	transform-origin: 100%;
+	transform: rotate(90deg);
+	transition: all 0.05s;
+	transition-timing-function: ease-in-out;
 
 }
 
