@@ -3,3 +3,25 @@
 // Turn on freq used libraries
 // @import 'normalize-css/normalize';
 // @import 'font-awesome/scss/font-awesome';
+
+html {
+	background-color: #355c7d;
+	font-family: 'helvetica neue';
+	text-align: center;
+	font-size: 10px;
+}
+body {
+	margin: 0;
+	font-size: 2rem;
+	display: flex;
+	flex: 1;
+	min-height: 100vh;
+	align-items: center;
+}
+.clock {
+	height: 40rem;
+	width :40rem;
+	border: 25px solid #f8b195;
+	border-radius: 50%;
+	margin: 50px auto;
+}
